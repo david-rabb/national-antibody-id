@@ -13,12 +13,19 @@ To minimize the spread of infectious diseaes, a central database and PKI (Public
 - Incentives for individuals to use the system
 
 
-## PKI
-Public key infrastructure is a well-known and standard method for issuing and trusting public key certificates. The most well-known application of PKI is securing connections to websites by only allowing certificates that have been signed by a trusted certificate authority. The trust model in this case is that registered healthcare professionals submit patient test results to a central authority. Patients can generate an encrypted and signed 2D barcode 
+## PKI and the Trust Model
+Public key infrastructure is a well-known and standard method for issuing and trusting public key certificates. The most well-known application of PKI is securing connections to websites by only allowing certificates that have been signed by a trusted certificate authority. 
+
+The trust model in this case is that registered healthcare professionals submit test results to a central authority to append to a patient's health record. Individuals can generate an encrypted and signed 2D barcode certificate containing assertions of their health record. Finally, independent third parties (business, venues, other people) can verify patient assertions by scanning the bar codes. 
 
 In the initial release, the PKI can be simple: a central state or federal health authority like the CDC, can maintain one long-term root certificate and rotating intermediate certificates. Later, other entities like hospitals and clinics could be introduced as alternate intermediate authorities. 
 
 The technical details of managing private keys can be complex and are important to get right. A major existing PKI participant like Digicert, Microsoft or Google should assist health authorities in their PKI infrasturcutre and security practices.
+
+### Trust Challenges
+- How does the health authority trust HCPs?
+- How do patients trust HCPs and how can they fix their health record?
+- How can third-parties trust barcodes?
 
 ## Issuance
 
