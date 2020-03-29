@@ -12,5 +12,11 @@ To minimize the spread of infectious diseaes, a PKI (Public Key Infrastructure) 
 - Printable or Mobile
 - Incentives for individuals to use the system
 
+
+## PKI
 ## Verification
-asdf asdf asdf
+## Privacy
+## Extensibility
+## Spoofing
+## Format
+## Incentives
