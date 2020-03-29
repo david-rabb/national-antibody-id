@@ -1,5 +1,5 @@
 # Proposal for a National Antibody ID
-To minimize the spread of infectious diseaes, a central database and PKI (Public Key Infrastructure) ecosystem could quickly and non-invasively check an individual's known health status. The ID system can be thought of as a boarding pass as used for airline passengers with extra gaurantees of privacy, authenticity and flexibility. Individuals would present their Antibody ID when entering buildings, sensitive areas (nursing homes, meeting with leaders) or other large gatherings.
+To minimize the spread of infectious diseaes, a central database and PKI (Public Key Infrastructure) ecosystem could quickly and non-invasively check an individual's known health status. The ID system can be thought of as a boarding pass as used for airline passengers with extra gaurantees of privacy, authenticity and flexibility. Individuals would present their Antibody ID when entering buildings, sensitive areas (nursing homes, dental appointments, meeting with leaders) or other large gatherings.
 
 ## Goals
 - [Quckly and cleary indicate if an individual is cleared to pass a physical security checkpoint](#Verification)
@@ -28,7 +28,7 @@ The technical details of managing private keys can be complex and are important 
 - How can third-parties trust barcodes?
 
 ## Issuance
-
+**Scenario:** An patient obtains a temporary ID token from a CDC portal or mobile app. The patient visits his healthcare provider for a test of antibodies to a specific disease in his system and provides token. The patient's doctor and/or testing laboratory submit the test results to the CDC database along with the patient's token. The patient can then download the pertient aspects of their heath record as a barcode in their app or print to paper. A business wishing to certify that all of it's employees are immune and non-contagious can scan their employee's barcordes prior to each day of work, verifying test result status and validity.
 
 ## Verification
 ## Privacy
@@ -37,4 +37,6 @@ The technical details of managing private keys can be complex and are important 
 ## Format
 ## Incentives
 ## Auditing
+## Alternatives
+- Can a distributed infrastructure like blockchain solve this problem better?
 
