@@ -45,10 +45,12 @@ Even though generating a digitally-signed barcode is fairly straighforward, prev
 4. **Location fencing**: enforce restrictions on reasonable location changes. E.g. an individual could not be scanned in NY and LA within 4 hrs of each other, and not be scanned at any two different buildings in less than five minutes. 
 5. **Shared Biometric**: An employer can indepently manage biometric verification like fingerprint, voiceprint, or facial recognition. We prefer not to create a national biometric database. 
 6. **Private Biometric**: If a mobile OS can guarantee a biometric reading like finger or facial recognition belong to only one person, then a subject's device can also perform biometric identification and send a result or hash to a brokering service. As currently implemented, most mobile device technologies such as Apple's TouchID or FaceID technically allow fingers and faces from multiple subjects.
-7. **PIN**: A basic second factor to help block re-use of stolen barcodes. 
+7. **PIN**: A basic second factor to help block re-use of stolen barcodes.
+
+All of the above second-factor verification options significantly slow down the scanning process. An initial release could require only single factor verification (the barcode only) to speed adoption of the system. 
 
 ## Privacy
-Provide as little information as you want to CDC
+Provide as little information as you want to the health authority. However, second-factor verification may require you to register more of your personal information. 
 
 ## Extensibility
 The Health boarding pass should be generic enough to contain the known status of any health condition. 
