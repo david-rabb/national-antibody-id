@@ -1,8 +1,11 @@
 # Proposal for a National Antibody ID
-To minimize the spread of infectious diseaes, a central database and PKI (Public Key Infrastructure) ecosystem could instaneouly and non-invasively check an individual's known health status. The ID system can be thought of as a boarding pass as used for airline passengers with extra guarantees of privacy, authenticity and flexibility. Individuals would present their health "boarding pass" when entering buildings, sensitive areas (nursing homes, dental appointments, meeting with leaders) or other large gatherings.
+To minimize the spread of infectious diseaes, a central database and PKI (Public Key Infrastructure) ecosystem could instantaneously and non-invasively check an individual's known health status. The ID system can be thought of as a boarding pass as used for airline passengers with extra guarantees of privacy, authenticity and flexibility. Individuals would present their health "boarding pass" when entering buildings, sensitive areas (nursing homes, dental appointments, meeting with leaders) or other large gatherings.
+
+## Background
+In the current pandemic involving the SARS-CoV-2 virus we assume that individuals who have been infected and have adequately recovered--recognizing that the timeline for such states is not clearly understood--no longer represent a risk of transmission or acquisition of COVID-19. Reliable identification of such cleared individuals is a prerequisite for releasing those people back into the workforce, particularly in high-risk settings such as healthcare.
 
 ## Goals
-- Quckly and cleary indicate if an individual is cleared to pass a physical security checkpoint
+- Quickly and clearly indicate if an individual is cleared to pass a physical security checkpoint
 - Varying levels of verification as required by venue
 - Don't reveal unecesary PHI or PII to ANY party, including the health authority
 - Extendable public fields -- new health conditions or other fields can be added as needed
@@ -11,7 +14,6 @@ To minimize the spread of infectious diseaes, a central database and PKI (Public
 - Revokable
 - Printable or Mobile
 - Incentives for individuals to use the system
-
 
 ## PKI and the Trust Model
 Public key infrastructure is a well-known and standard method for issuing and trusting public key certificates. The most well-known application of PKI is securing connections to websites by only allowing certificates that have been signed by a trusted certificate authority. 
