@@ -30,13 +30,12 @@ The technical details of managing private keys can be complex and are important 
 - How can third-parties trust barcodes?
 
 ## Issuance
-**Basic Scenario:** An patient obtains a temporary ID token from a CDC portal or mobile app. The patient visits his healthcare provider for a test of antibodies to a specific disease in his body and provides token to HCP. The patient's doctor and/or testing laboratory submit the test results to the CDC database along with the patient's token. The patient can then download the pertient aspects of their heath record as a barcode in their app or print to paper. A business wishing to certify that all of it's employees are immune and non-contagious can scan their employee's barcordes prior to each day of work, verifying test result status and validity.
+**Basic Scenario:** An patient obtains a temporary ID token from a CDC portal or mobile app. The patient visits his healthcare provider for a test of antibodies to a specific disease in his body and provides token to HCP. The patient's doctor and/or testing laboratory submit the test results to the CDC database along with the patient's token. The patient can then download the pertinent aspects of their heath record as a barcode in their app or print to paper. A business wishing to certify that all of it's employees are immune and non-contagious can scan their employee's barcordes prior to each day of work, verifying test result status and validity.
 
 **Other Scenarios:** 
 - A business can protect employees from each other and customers when working in close proximity.
 - Concert/movie/shopping/transportation venues can protect their employees and customers
 - POTUS can screen individuals before meeting them in person
-- Sexual partners can verify each other's STD test results before being intimate
 
 ## Barcode Verification
 Even though generating a digitally-signed barcode is fairly straighforward, preventing someone from copying this barcode and giving it to a friend or family member for impersonation is a real threat. How can we ensure each barcode is associated with the true owner? Airports address this in their barcodes using a 2nd factor of identification. A TSA agent compares a physical identification card with the barcode data. A similar multi-factor approach needs to be used here as well, but there are other options to physical ID cards:
@@ -81,4 +80,7 @@ The health certificate boarding pass is a 2D barcode of base64-encoded plaintext
 
 ## Technology Alternatives
 - Can a distributed infrastructure like blockchain solve this problem better?
+
+## Future Applications
+- Sexual partners can verify each other's STD test results before being intimate
 
